@@ -98,9 +98,9 @@
           <section>
             <h1>85% & 75%</h1>
             <aside class="notes">
-              85 expect mobile to load as faster or faster than desktop     
+              85 expect mobile to load as faster or faster than desktop
 
-              75 will leave your site for comp if its slow       
+              75 will leave your site for comp if its slow
             </aside>
           </section>
           <section>
@@ -131,7 +131,7 @@
             </aside>
           </section>
           <section>
-            <img src="rum.jpg">
+            <img src="img/rum.jpg">
             <aside class="notes">
               Real User Monitoring. Google Analytics has a feature to allow you to see how quickly your site is being delievered to your users on their devices. But maybe pingdom is better. Because goog just samples and doesn't give you all results. Pingdom does. And it's performance oriented. But there are lots of tools.
             </aside>
@@ -209,7 +209,7 @@
          <section>
            <h1>PNG</h1>
            <h2 class="fragment fade-in">8 vs. 24</h2>
-           <img src="logo.jpg">
+           <img src="img/ie.png">
            <aside class="notes">
              Think logos.
 
@@ -265,12 +265,11 @@
           </section>
           <section>
             <section>
-              <h1>Get Sassy</h1>
-              <h1>Then UnCSS</h1>
+              <h1>UnCSS</h1>
               <aside class="notes">
                 Build starts with sass or scss in my case.
 
-                The prod gets uncss. Comments get removed. Everything concatted. 
+                The prod gets uncss. Comments get removed. Everything concatted.
 
                 Explain how it works. Feed it html or urls.
               </aside>
@@ -281,6 +280,20 @@
           <section>
             <h2>Advanced topics</h2>
             <img src="images/level2.gif" alt="">
+          </section>
+          <section>
+            <h2>Optimize your initcwnd</h2>
+            <aside class="notes">
+              Who knows what the initial conngestion window is?
+              Who knows how much data you can shove in a packet? (around 1500 bytes)
+              When we open an http connection the browser sends the server a syn,
+              the server responds with a syn,ack the browser responds with an ack
+              and then the server sends some initial amount of packets. Optimally
+              we can get that window to 10 which means we have around 15k worth
+              of data to send.  Thus if we can get our files in that range then
+              we can send the entire file in one burst and the browser doesn't
+              have to send us more acks.
+            </aside>
           </section>
           <section>
             <h2>Chunk files into 10k groups</h2>
@@ -301,9 +314,7 @@
               Only really worth it for very small files and in special circumstances.
             </aside>
           </section>
-        </section>
-        <section>
-         <section>
+          <section>
            <h1>So Technology</h1>
            <br>
            <h1 style="font-size: 10rem">&#128191;</h1>
@@ -329,6 +340,9 @@
          </section>
         </section>
         <section>
+         
+        </section>
+        <section>
           <section>
             <h1>Crazy People Stuff</h1>
           </section>
@@ -352,12 +366,15 @@
           </section>
           <section>
             <img src="img/confused.gif">
+            <h1>Concatination</h1>
+            <h2 class="fragment fade-in">May Not Be the Best Way</h2>
+            <img class="fragment fade-in" src="img/confused.gif">
             <h1 class="fragment fade-in">WTF</h1>
           </section>
           <section>
             <img src="img/internet.gif"><br>
             <a class="fragment fade-in" href="https://github.com/h5bp/lazyweb-requests/issues/5">h5bp github issues</a>
-            <aside class="notes">I was hanging on the webs. gettin deep on some github issues. 
+            <aside class="notes">I was hanging on the webs. gettin deep on some github issues.
 
             this one in particular
 
