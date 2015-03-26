@@ -48,6 +48,9 @@
 
         <section>
           <h2>What we were listening to: </h2>
+          <h3 class="fragment fade-in">The "Electrochill" playlist on Spotify</h3>
+          <h2 class="fragment fade-in">&</h2>
+          <img class="fragment fade-in" src="img/to-pimp-a-butterfly.jpg">
           <aside class="notes">
             Music is srsbsns
           </aside>
@@ -79,6 +82,27 @@
             </p>
           </section>
           <section>
+            <h1>40%</h1>
+            <aside class="notes">
+              40% of users will bounce after waiting 3 secs
+            </aside>
+          </section>
+          <section>
+            <h1>Count'em</h1>
+            <h1>2</h1>
+            <aside class="notes">
+              Overall people have 2 sec expectation
+            </aside>
+          </section>
+          <section>
+            <h1>85% & 75%</h1>
+            <aside class="notes">
+              85 expect mobile to load as faster or faster than desktop     
+
+              75 will leave your site for comp if its slow       
+            </aside>
+          </section>
+          <section>
             <h2>Impacts on Desktop</h2>
             <p>
               Users wait ~3 seconds before they bounce
@@ -92,9 +116,10 @@
               <li>YSlow</li>
               <li>PageSpeed</li>
               <li>Boomerang</li>
+              <li>Webpagetest</li>
             </ul>
             <aside class="notes">
-              lotsatools.jpg
+              webpagetest - has a cool filmstrip feature that shows you your site's state at intervals of time as it loads answering the question how long before your page actually starts to render
             </aside>
           </section>
           <section>
@@ -102,6 +127,12 @@
             <aside class="notes">
               You have to know what you're dealing with in order to make
               optimizations
+            </aside>
+          </section>
+          <section>
+            <img src="rum.jpg">
+            <aside class="notes">
+              Real User Monitoring. Google Analytics has a feature to allow you to see how quickly your site is being delievered to your users on their devices. But maybe pingdom is better. Because goog just samples and doesn't give you all results. Pingdom does. And it's performance oriented. But there are lots of tools.
             </aside>
           </section>
         </section>
@@ -158,6 +189,19 @@
               time you make a change to your application code.
             </aside>
           </section>
+          <section>
+            <section>
+              <h1>Get Sassy</h1>
+              <h1>Then UnCSS</h1>
+              <aside class="notes">
+                Build starts with sass or scss in my case.
+
+                The prod gets uncss. Comments get removed. Everything concatted. 
+
+                Explain how it works. Feed it html or urls.
+              </aside>
+            </section>
+          </section>
         </section>
         <section>
           <section>
@@ -175,6 +219,103 @@
             </aside>
           </section>
         </section>
+        <section>
+         <section>
+           <h1>all-ur-images.jpg</h1>
+           <aside class="notes">
+             images up majority of site weight
+           </aside>
+         </section>
+         <section>
+           <h1>Image bytes = &#8599;</h1>
+           <aside class="notes">
+            bytes up 30% over last year
+           </aside>
+         </section>
+         <section>
+           <h1 style="font-size: 11rem">&#127815;</h1>
+           <aside class="notes">
+             Low hanging fruit
+           </aside>
+         </section>
+         <section>
+           <h2>???</h2>
+           <aside class="notes">
+             So what can we do. Glad you asked.
+           </aside>
+         </section>
+         <section>
+           <h1 style="font-size: 10rem">&#128190;</h1>
+           <aside class="notes">
+             We can start low tech. Basic.
+
+             Photoshop is a good place to start. Specifically save for web feature. But which format Brett.
+           </aside>
+         </section>
+         <section>
+           <h1>JPEG</h1>
+           <aside class="notes">
+             Best for photos and images with many colors
+           </aside>
+         </section>
+         <section>
+           <h1>GIF</h1>
+           <img src="funny.gif">
+           <aside class="notes">
+             best used for. well you know.
+           </aside>
+         </section>
+         <section>
+           <h1>PNG</h1>
+           <h2 class="fragment fade-in">8 vs. 24</h2>
+           <img src="logo.jpg">
+           <aside class="notes">
+             Think logos.
+
+             8 is good for images with few colors
+
+             24 is for if you need partial transparency
+           </aside>
+         </section>
+         <section>
+          <h1>WebP?</h1>
+          <h1 class="fragment fade-in">JPEG XR?</h1>
+          <aside class="notes">
+             webp is 
+
+             it's good because
+
+             jpegxr is 
+
+             it's good because
+           </aside>
+        </section>
+         <section>
+           <h1>So Technology</h1>
+           <br>
+           <h1 style="font-size: 10rem">&#128191;</h1>
+           <aside class="notes">
+             how about those high tech approaches though
+           </aside>
+         </section>
+         <section>
+          <h1>Enter imgix.com</h1>
+          <h2 class="fragment fade-in">Dependency-Free JS Libray</h2>
+          <h2 class="fragment fade-in">Python, Ruby, Etc.</h2>
+           <aside class="notes">
+             it does all the things for you.
+
+             Connect existing img store. S3 blah blah.
+
+             First time img is requested img fetched from img store
+
+             automatically deliever new formats like webp if end user can handle it.
+
+             using imgix.js container size for image and pix dense is detected. then the exact image for that screen size is delievered.
+           </aside>
+         </section>
+        </section>
+
         <section>
           <h2>Conclusion</h2>
           <ul>

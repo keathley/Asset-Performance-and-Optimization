@@ -1877,4 +1877,7 @@ body {
 	visibility: hidden;
 }
 
-
+.brand {
+	background-color: #212B32;
+	padding: 1rem;
+}
